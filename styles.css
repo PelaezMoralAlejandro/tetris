@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+#tetris {
+    text-align: center;
+    background: #202323;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#tetris-board{
+    background-color: #1a1a1a; /* Tablero oscuro */
+    border: 4px solid #333; /* Bordes más visibles */
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border-radius: 5px;
+}
+
+#score, #best-score {
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #5e29b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #530ecb;
+}
